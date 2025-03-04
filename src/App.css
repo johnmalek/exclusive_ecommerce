@@ -63,7 +63,7 @@ nav {
 .nav-links {
   display: flex;
   justify-content: space-between;
-  gap: 20px;
+  gap: 2px;
 }
 
 .nav-links li {
@@ -75,10 +75,48 @@ nav {
   text-decoration: none;
   letter-spacing: 3px;
   font-weight: bold;
-  font-size: 14px;
+  font-size: 12px;
   padding: 14px 16px;
 }
 
 .nav-links li a.active {
   text-decoration: underline;
+}
+
+.search-bar {
+  display: flex;
+  align-items: center;
+  background: white;
+  border-radius: 20px;
+  padding: 5px 10px;
+  border: 1px solid #ccc;
+  margin-left: 50px;
+}
+
+.search-bar input {
+  border: none;
+  outline: none;
+  padding: 5px;
+  width: 180px;
+}
+
+.search {
+  border: none;
+  outline: none;
+}
+
+.icons {
+  display: flex;
+  gap: 15px;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.icon {
+  color: white;
+  -webkit-text-stroke: 1px black;
+}
+.icon:hover {
+  color: black;
+  -webkit-text-stroke: 0px;
 }
