@@ -37,6 +37,10 @@
   }
 }
 
+.app-container {
+  max-width: 1000px;
+}
+
 nav {
   display: flex;
   justify-content: space-between;
@@ -44,7 +48,6 @@ nav {
   min-height: 8vh;
   background-color: white;
   font-family: "Montserrat", sans-serif;
-  max-width: 1000px;
   margin: 0 auto;
   padding: 0 20px;
 }
@@ -119,4 +122,31 @@ nav {
 .icon:hover {
   color: black;
   -webkit-text-stroke: 0px;
+}
+
+.page-container {
+  max-width: 80%;  /* Ensures all content is within a standard width */
+  margin: 0 auto;      /* Centers everything */
+  padding: 20px;
+}
+
+.content-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;  /* Centers all components horizontally */
+  justify-content: center;
+  width: 100%;
+}
+
+.carousel-container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 20px auto; /* Centers carousel below navbar */
+  overflow: hidden;
+}
+
+.carousel-container img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
 }
