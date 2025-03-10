@@ -132,21 +132,53 @@ nav {
 
 .content-wrapper {
   display: flex;
-  flex-direction: column;
-  align-items: center;  /* Centers all components horizontally */
-  justify-content: center;
+  gap: 10px;
   width: 100%;
+  align-items: stretch;
+}
+
+.sidebar {
+  width: 250px;
+  padding: 15px;
+}
+
+.sidebar ul {
+  list-style: none;
+  padding: 0;
+}
+
+.sidebar li {
+  padding: 10px 0;
+}
+
+.sidebar a {
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+}
+
+.vertical-divider {
+  width: 2px;
+  background-color: gray;
+  height: 100%;
+  align-self: stretch;
+}
+
+.main-section {
+  flex: 1;
+  display: flex;
+  flex-direction: center;
 }
 
 .carousel-container {
   width: 100%;
-  max-width: 1200px;
-  margin: 20px auto; /* Centers carousel below navbar */
-  overflow: hidden;
+  max-width: 800px;
+  margin: 0 auto;
 }
 
-.carousel-container img {
+.carousel-image {
   width: 100%;
-  height: auto;
+  height: 400px;
+  object-fit: cover;
   border-radius: 10px;
 }

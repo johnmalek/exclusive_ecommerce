@@ -10,27 +10,27 @@ function Carousel() {
         speed: 500,
         slidesToShow:1,
         slidesToScroll: 1,
-        autoPlay: true,
-        autoplaySpeed: 3000
+        autoplay: true,
+        autoplaySpeed: 2000
     };
 
     return (
-        <div className="carousel-contaner">
+        <div className="carousel-container">
             <Slider {...settings}>
                 <div>
-                    <img src="./src/img/image1.jpg" alt="slide 1"/>
+                    <img className="carousel-image" src="/img/image1.jpg" alt="slide 1"/>
                 </div>
                 <div>
-                    <img src="./src/img/image2.jpg" alt="slide 2"/>
+                    <img className="carousel-image" src="/img/image2.jpg" alt="slide 2"/>
                 </div>
                 <div>
-                    <img src="./src/img/image3.jpg" alt="slide 3"/>
+                    <img className="carousel-image" src="/img/image3.jpg" alt="slide 3"/>
                 </div>
                 <div>
-                    <img src="./src/img/image4.jpg" alt="slide 4"/>
+                    <img className="carousel-image" src="/img/image4.jpg" alt="slide 4"/>
                 </div>
                 <div>
-                    <img src="./src/img/image5.jpg" alt="slide 5"/>
+                    <img className="carousel-image" src="/img/image5.jpg" alt="slide 5"/>
                 </div>
             </Slider>
         </div>
