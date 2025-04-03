@@ -3,6 +3,7 @@ import React from 'react';
 import Carousel from './components/Carousel';
 import Navbar from './components/Navbar';
 import Sidebar from './components/Sidebar';
+import Content from './components/Content';
 
 function App() {
   return(
@@ -29,6 +30,7 @@ function App() {
           <div className='vertical-divider'></div>
           <Carousel />
         </div>
+        <Content />
       </div>
 
 
