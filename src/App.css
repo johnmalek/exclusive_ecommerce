@@ -125,8 +125,8 @@ nav {
 }
 
 .page-container {
-  max-width: 80%;  /* Ensures all content is within a standard width */
-  margin: 0 auto;      /* Centers everything */
+  max-width: 80%;
+  margin: 0 auto;
   padding: 20px;
 }
 
