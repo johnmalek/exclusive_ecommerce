@@ -3,7 +3,7 @@ import { FaMobileAlt, FaLaptop, FaHeadphones, FaCamera, FaGamepad, FaClock } fro
 import '../categories.css';
     
 const categories = [
-    {name: 'phones', icon: <FaMobileAlt />},   
+    {name: 'Phones', icon: <FaMobileAlt />},   
     {name: 'Computers', icon: <FaLaptop />},
     {name: 'HeadPhones', icon: <FaHeadphones />},
     {name: 'Cameras', icon: <FaCamera />},
@@ -31,6 +31,7 @@ const Categories = () => {
         </div>
         ))}
       </div>
+      <hr className="hr" />
     </div>
     );
 }
