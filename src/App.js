@@ -5,6 +5,7 @@ import Navbar from './components/Navbar';
 import Sidebar from './components/Sidebar';
 import Today from './components/Today';
 import Categories from './components/Categories';
+import BestSellingProducts from './components/BestSellingProduct';
 
 function App() {
   return(
@@ -18,6 +19,7 @@ function App() {
         </div>
         <Today />
         <Categories />
+        <BestSellingProducts />
       </div>
 
     </>
