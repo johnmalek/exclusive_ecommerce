@@ -6,6 +6,7 @@ import Sidebar from './components/Sidebar';
 import Today from './components/Today';
 import Categories from './components/Categories';
 import BestSellingProducts from './components/BestSellingProduct';
+import Footer from './components/Footer';
 
 function App() {
   return(
@@ -20,6 +21,7 @@ function App() {
         <Today />
         <Categories />
         <BestSellingProducts />
+        <Footer />
       </div>
 
     </>

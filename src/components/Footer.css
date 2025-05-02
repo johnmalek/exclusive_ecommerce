@@ -1,0 +1,115 @@
+.footer {
+  background-color: #000;
+  color: white;
+  padding: 40px 20px 20px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.footer-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-wrap: nowrap;
+  gap: 20px;
+}
+
+.footer-column {
+  display: flex;
+  flex-direction: column;
+  min-width: 160px;
+  font-size: 13px;
+  align-items: flex-start;
+}
+
+.footer-column h3,
+.footer-column h4 {
+  margin-bottom: 12px;
+  font-size: 15px;
+  text-align: left;
+}
+
+.footer-column li,
+.footer-column p {
+  margin: 6px 0;
+  font-size: 13px;
+}
+
+.footer-column ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  text-align: left;
+}
+
+.subscribe {
+  display: flex;
+  margin-top: 8px;
+  border: 1px solid #fff;
+  border-radius: 20px;
+  overflow: hidden;
+  max-width: 200px;
+}
+
+.subscribe input {
+  flex: 1;
+  padding: 6px 8px;
+  font-size: 12px;
+}
+
+.subscribe button {
+  background: white;
+  color: black;
+  border: none;
+  padding: 0 10px;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.download-app {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.download-app img {
+  width: 90px;
+  margin-bottom: 6px;
+}
+
+.social-icons {
+  margin-top: 8px;
+  display: flex;
+  gap: 10px;
+  font-size: 14px;
+}
+
+.footer-bottom {
+  border-top: 1px solid #444;
+  margin-top: 30px;
+  padding-top: 10px;
+  text-align: center;
+  font-size: 12px;
+  color: #aaa;
+}
+
+@media screen and (max-width: 768px) {
+  .footer-top {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .footer-column {
+    width: 100%;
+    margin-bottom: 30px;
+  }
+
+  .download-app {
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+
+  .download-app img {
+    width: 45%;
+  }
+}
